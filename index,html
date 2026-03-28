@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Attendance</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-100 to-purple-100 min-h-screen">
+
+  <header class="bg-blue-600 text-white p-4 shadow-lg">
+    <h1 class="text-2xl font-bold text-center">📘 Class Attendance System</h1>
+  </header>
+
+  <div class="p-4 max-w-5xl mx-auto">
+
+    <div class="bg-white rounded-2xl shadow-md p-4 mb-6">
+      <h2 class="text-xl font-semibold mb-2">Welcome 👋</h2>
+      <p>This is your class attendance dashboard. Everyone can view attendance below.</p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-md p-4 overflow-x-auto">
+      <h2 class="text-xl font-semibold mb-4">Attendance List</h2>
+
+      <table class="w-full border-collapse text-center">
+        <thead>
+          <tr class="bg-blue-200">
+            <th class="p-2 border">Name</th>
+            <th class="p-2 border">Date</th>
+            <th class="p-2 border">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="p-2 border">Het</td><td class="p-2 border">28 Mar</td><td class="p-2 border text-green-600 font-bold">Present</td></tr>
+          <tr><td class="p-2 border">Yashvi</td><td class="p-2 border">28 Mar</td><td class="p-2 border text-red-600 font-bold">Absent</td></tr>
+          <tr><td class="p-2 border">Charmi</td><td class="p-2 border">28 Mar</td><td class="p-2 border text-green-600 font-bold">Present</td></tr>
+          <tr><td class="p-2 border">Dhairya</td><td class="p-2 border">28 Mar</td><td class="p-2 border text-green-600 font-bold">Present</td></tr>
+          <tr><td class="p-2 border">Bhoomika</td><td class="p-2 border">28 Mar</td><td class="p-2 border text-red-600 font-bold">Absent</td></tr>
+          <tr><td class="p-2 border">Nency</td><td class="p-2 border">28 Mar</td><td class="p-2 border text-green-600 font-bold">Present</td></tr>
+          <tr><td class="p-2 border">Dhiresh</td><td class="p-2 border">28 Mar</td><td class="p-2 border text-green-600 font-bold">Present</td></tr>
+          <tr><td class="p-2 border">Nikita</td><td class="p-2 border">28 Mar</td><td class="p-2 border text-red-600 font-bold">Absent</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer class="text-center mt-6 text-gray-600">
+      <p>Made for class use ❤️</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
